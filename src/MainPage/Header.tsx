@@ -1,11 +1,11 @@
+import React from "react";
 import {
-    faHome,
-    faInfoCircle,
-    faCog,
-    faEnvelope,
-  } from "@fortawesome/free-solid-svg-icons";
-  import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-  
+  faHome,
+  faInfoCircle,
+  faCog,
+  faEnvelope,
+} from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
   const bodyItems = [
     {
       title: "Home",
