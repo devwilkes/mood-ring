@@ -35,12 +35,13 @@ import {
     return (
       <div className="main">
         <div className="hero">
-          <h2>Welcome to my website!</h2>
+          <h1 id = "welcome_splash">Welcome.</h1>
           <p>
-            This is a basic template website made with React TypeScript.
-            Feel free to use it in any way you wish!
+            Before we begin finding your mood color, would you mind telling me your name?
           </p>
-          <button>Learn More</button>
+          <form id = "welcome_splash_form">
+            <input type="text" placeholder="Please enter your name:" required />
+          </form>
         </div>
   
         <div className="features">

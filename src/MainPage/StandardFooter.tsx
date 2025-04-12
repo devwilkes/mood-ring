@@ -3,7 +3,7 @@ const StandardFooter: React.FC = () => {
     // Return a JSX element that renders the footer of the website
     return (
       <div className="footer">
-        <p>© 2023 by My Website. All rights reserved.</p>
+        <p>© 2025 by Devon Wilkes. All rights reserved.</p>
       </div>
     );
   };

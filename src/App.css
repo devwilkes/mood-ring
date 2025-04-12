@@ -1,15 +1,14 @@
 /* Import Google Fonts */
 @import url("https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab&display=swap");
 
-/* Set the color scheme */
+/* Setting the static (non-changing) color schemes */
 :root {
   --primary-color: hsl(289, 71%, 49%);
   --secondary-color: #a218ec;
   --tertiary-color: hsl(289, 71%, 49%);
   --quaternary-color: #090404;
   --quinary-color: #000000;
-  --bg-color: #ffffff;
-  --text-color: #000000;
+  --text-color: #ffffff;
 }
 
 /* Set the body properties */
