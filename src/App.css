@@ -3,12 +3,12 @@
 
 /* Setting the static (non-changing) color schemes */
 :root {
-  --primary-color: hsl(289, 71%, 49%);
+  --primary-color: hsl(288, 100%, 96%);
   --secondary-color: #a218ec;
   --tertiary-color: hsl(289, 71%, 49%);
   --quaternary-color: #090404;
   --quinary-color: #000000;
-  --text-color: #ffffff;
+  --text-color: #000000;
 }
 
 /* Set the body properties */

@@ -1,0 +1,41 @@
+.main-default {
+  animation: rainbow 10s infinite;
+  background-size: 400% 400%;
+  height: 100vh; /* Ensure it covers the full viewport height */
+}
+
+@keyframes rainbow {
+  0% {
+    background-color: #ff0000;
+  }
+  10% {
+    background-color: #ff9a00;
+  }
+  20% {
+    background-color: #d0de21;
+  }
+  30% {
+    background-color: #4fdc4a;
+  }
+  40% {
+    background-color: #3fdad8;
+  }
+  50% {
+    background-color: #2b65ff;
+  }
+  60% {
+    background-color: #8431ff;
+  }
+  70% {
+    background-color: #e431ff;
+  }
+  80% {
+    background-color: #ffffff;
+  }
+  90% {
+    background-color: #1c1c1c;
+  }
+  100% {
+    background-color: #7f4f22;
+  }
+}
