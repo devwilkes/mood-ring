@@ -12,15 +12,21 @@ import {
     {
       title: "Restart Session",
       icon: faRedo,
+      click: () => {
+        window.location.reload();
+      }
     },
-    {
-        title: "Color Catalog",
-        icon: faBook,
+      {
+          title: "Color Catalog",
+          icon: faBook,
+          click: () => {
+            window.location.href = "/CatalogPage";
+      }
     },
   ];
   
-  // Define a functional component named Main
-  const Main: React.FC = () => {
+  // Define a functional component named Quiz
+  const Quiz: React.FC = () => {
     // Return a JSX element that renders the main content of the website
     return (
       <div className="main-default">
@@ -39,7 +45,7 @@ import {
             className="feature"
             style={{ display: "flex", flexDirection: "row" }}
           >
-            {bodyItems.map(({ title, icon }) => (
+            {bodyItems.map(({ title, icon , click}) => (
               <div
                 key={title}
                 style={{
@@ -83,4 +89,4 @@ import {
   </div>
 </div>
   
-  export default Main;
+  export default Quiz;
