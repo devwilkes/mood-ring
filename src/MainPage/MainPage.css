@@ -1,4 +1,4 @@
-.main-default {
+.main-bg-default {
   animation: rainbow 15s infinite;
   background-size: 400% 400%;
   height: 100vh;
@@ -70,7 +70,7 @@
   }
 }
 
-slider {
+.slider {
   -webkit-appearance: none;
   appearance: none;
   width: 100%;

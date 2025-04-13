@@ -22,7 +22,7 @@ import {
   ];
   
   // Define a functional component named Main
-  const Main: React.FC = () => {
+  const CatalogMain: React.FC = () => {
     // Return a JSX element that renders the main content of the website
     return (
       <div className="main-default">
@@ -88,4 +88,4 @@ import {
   </div>
 </div>
   
-  export default Main;
+  export default CatalogMain;

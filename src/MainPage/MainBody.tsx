@@ -1,8 +1,4 @@
 import {
-    faHome,
-    faInfoCircle,
-    faCog,
-    faEnvelope,
     faRedo,
     faBook,
   } from "@fortawesome/free-solid-svg-icons";
@@ -12,10 +8,16 @@ import {
     {
       title: "Restart Session",
       icon: faRedo,
+      click: () => {
+        window.location.reload();
+      }
     },
     {
         title: "Color Catalog",
         icon: faBook,
+        click: () => {
+            window.location.href = "/CatalogPage";
+      }
     },
   ];
   
@@ -23,10 +25,10 @@ import {
   const Main: React.FC = () => {
     // Return a JSX element that renders the main content of the website
     return (
-      <div className="main-default">
+      <div className="main-bg-default">
         <div className="hero">
-          <h1>Welcome.</h1>
-          <p>
+          <h1 className="text-fade-in">Welcome.</h1>
+          <p className="text-fade-in">
             Before we begin finding your mood color, would you mind telling me your name?
           </p>
           <form id = "welcome_splash_form">
@@ -65,7 +67,7 @@ import {
     className="feature"
     style={{ display: "flex", flexDirection: "row" }}
   >
-    {bodyItems.map(({ title, icon}) => (
+    {bodyItems.map(({title, icon, click}) => (
       <div
         key={title}
         style={{
